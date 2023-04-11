@@ -1,0 +1,19 @@
+{
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+
+    "[javascriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+
+    "eslint.workingDirectories": ["./client", "./server"]
+}

@@ -1,0 +1,21 @@
+
+.react-switch-bg {
+    background: #F1F1F5 !important;
+    /* height: 24px !important;
+    width: 43px !important; */
+}
+
+.react-switch-bg div svg {
+    display: none !important;
+}
+
+.react-switch-handle {
+    background: #0BAB7C !important;
+    /* height: 22px !important;
+    width: 22px !important; */
+    /* transform: translateX(29px) !important; */
+}
+
+.react-switch-handle {
+    box-shadow: none !important;
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: Manrope, sans-serif;
+    /* background-color: #FAFAFB; */
+    @apply dark:bg-black_BG bg-secondary_bg;
+  }
+}
+
+/* Firefox */
+* {
+  /* TODO: How to apply dark-white mode for Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #F1F1F5;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  @apply dark:bg-black_2;
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply dark:bg-black_3;
+  background-color: #F1F1F5;
+  border-radius: 14px;
+}
