@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/58451197/231233174-2805e3e5-b5d6-4e08-aa0f-55b6663e7342.png)
+
 The idea is to give developers free access to millions of job postings and connect them with employers by accessing as much data as possible from the API and utilizing it in a modern web application.
 
 # Technologies
