@@ -7,7 +7,7 @@
     "@heroicons/react": "^2.0.15",
 		"@reduxjs/toolkit": "^1.9.2",
 		"@tailwindcss/line-clamp": "^0.4.2",
-		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/jest-dom": "^6.1.6",
 		"@testing-library/react": "^13.4.0",
 		"@testing-library/user-event": "^13.5.0",
 		"date-and-time": "^2.4.2",
